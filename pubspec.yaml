@@ -1,0 +1,39 @@
+name: mi_card
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/rose.jpeg
+
+  # example:
+  fonts:
+     - family: WolfInTheCityLight
+       fonts:
+         - asset: fonts/WolfInTheCityLight-OKLo.ttf
+     - family: RobotoSlabBlack
+       fonts:
+         - asset: fonts/RobotoSlabBlack-d9xgK.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
